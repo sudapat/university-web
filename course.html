@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+
+    </section>
+
+    <!-- Course -->
+
+    <section class="course">
+        <h1>Our Courses</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga soluta reprehenderit quibusdam
+                    voluptatem molestiae aperiam, cum eos libero harum dignissimos.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga soluta reprehenderit quibusdam
+                    voluptatem molestiae aperiam, cum eos libero harum dignissimos.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga soluta reprehenderit quibusdam
+                    voluptatem molestiae aperiam, cum eos libero harum dignissimos.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Facilities -->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/facilities1.webp">
+                <h3>Counselling</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quas tenetur quis facilis beatae.
+                    Laboriosam culpa animi ab esse labore!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/facilities2.jpeg">
+                <h3>Accommodation service</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quas tenetur quis facilis beatae.
+                    Laboriosam culpa animi ab esse labore!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/facilities3.webp">
+                <h3>Clubs and societies</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quas tenetur quis facilis beatae.
+                    Laboriosam culpa animi ab esse labore!</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A corrupti nisi atque labore? Fuga labore modi
+            voluptatibus<br> possimus cum odio iure reiciendis corporis quis dolores.</p>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>© Havest University. 2023</p>
+    </section>
+
+
+    <!--JavaScript for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>
